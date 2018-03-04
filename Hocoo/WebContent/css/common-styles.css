@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+body{
+  color: #4CAF50;	
+}
+.bg{
+  background-image: url("../images/login_bg.jpg");
+  position: fixed;
+  width: 1300px;
+  height: 800px;
+  filter: brightness(50%);
+  left: 0;
+  right: 0 ;
+  top: 0;
+  bottom: 0;
+}
+.wrapper .login{
+  margin: auto auto;
+  width: 23%;
+  height: 50%;
+  padding: 8px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #6669;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 20px;
+}
+.wrapper .signup{
+	height: 70%;
+}
+.wrapper .login form{
+  margin: 0 auto;
+  padding: 12px; 
+}
+.wrapper .login form > input{
+  display: block;
+  margin : 23px auto;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 10px;  
+}
+.wrapper .login form > input:focus{
+  border: 1px solid #4CAF50;
+}
+.wrapper .login form input:last-child{
+   padding-left: 50px;
+   padding-right: 50px;
+   border: 1px solid lightblue;
+   cursor: pointer;	
+}
+.wrapper .login form input:last-child:hover, .wrapper .login form input:last-child:focus{
+  background-color: white;
+  border: 1px solid #4CAF50;
+  color: #4CAF50;
+}
+.wrapper a{
+  padding-bottom:3px;
+  text-decoration: none;
+  color: #4CAF50;
+  font-size: 17px;
+}
+
